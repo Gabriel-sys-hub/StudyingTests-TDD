@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 
 import App from '../App';
 
-describe('Routes', () => {
+describe('Testing Routes', () => {
   it('When we pass route with path `/` the page Home should render', async () => {
     const history = createMemoryHistory();
     history.push('/');
